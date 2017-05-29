@@ -14,10 +14,29 @@ body {
   font: 14px/20px Arial, San-Serif;
 }
 
+.service-img {
+  width: 150px;
+  height: 130px;
+}
+
+.service-alt {
+  width: 150px;
+}
+
 @media screen and (max-width:478px){
   .service-p{
     font-size: 12px;
   }
+
+  .service-img {
+    width: 100px;
+  height: 80px;
+  }
+
+  .service-alt {
+  width: 100px;
+  
+}
 }
 
 article,
